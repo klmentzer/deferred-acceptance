@@ -1,7 +1,7 @@
 import ctypes
 import numpy as np
 
-_lib = ctypes.cdll.LoadLibrary("./da_cpp.so")
+_lib = ctypes.cdll.LoadLibreary("./da_cpp.so")
 
 
 def deferred_acceptance(men_preferences, women_preferences, capacites, _lib):
